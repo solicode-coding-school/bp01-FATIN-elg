@@ -1,0 +1,107 @@
+img {
+    transform: translate(500px, 20px);
+}
+
+table {
+    transform: translate(150px, 20px);
+    border-color: blue;
+    align-items:center;
+;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.navabar ul {
+    list-style-type: none;
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navabar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+#pss2 {
+    width: 300px;
+    transform: translate(100px, -100px);
+}
+
+#ps {
+    width: 200px;
+    transform: translate(20px, 50px); /* Correction des valeurs de transformation */
+}
+
+/* Style de la section contenant les paragraphes et les images */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Pour permettre le retour à la ligne des sections */
+    justify-content: space-between; /* Espace entre les sections */
+}
+
+.section {
+    width: 48%; /* Chaque section prendra 48% de la largeur pour laisser de l'espace entre elles */
+    margin-bottom: 20px; /* Espace entre les sections sur l'axe vertical */
+    border: 1px solid #ccc; /* Bordure pour chaque section */
+    padding: 10px;
+    box-sizing: border-box; /* Inclure la bordure dans la taille */
+    text-align: center; /* Centrer le texte */
+}
+
+.section img {
+    width: 100%; /* L'image prend toute la largeur de la section */
+    height: auto; /* Pour conserver les proportions de l'image */
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%; /* Sur les petits écrans, chaque section prendra toute la largeur */
+    }
+}
+#moroc{
+    width: 250px;
+    transform: translate(80px,-20px);
+}
+#moroc1{
+    width: 200px;
+    transform: translate(-50px,20px);
+}
+#turc1{
+    width: 300px;
+    transform: translate(100px, -50px);
+}
+#turc2 {
+    width: 200px;
+    transform: translate(20px, 50px); /* Correction des valeurs de transformation */
+}
+#deutsch{
+    width: 250px;
+    transform: translate(-10px);
+}
+#ENGLAND1{
+    width: 300px;
+    transform: translate(100px, -50px);
+}
+#ENGLAND2{
+    width: 200px;
+    transform: translate(20px, -10px);
+}
